@@ -20,3 +20,7 @@ I added a node, in the middle of the file itself after tools that just prints th
 
 ## Video 6 (agent)
 > In this video we learned how to make a recursive loop, this allows for sequential tool calling. A tools output can be fed back into the tool with this. For my modification I added a tool that sorts a list of numbers. My intended behaviour was to have the llm then recursively subtract this list, but I was unable to get this to work. Perhaps a more refined prompt or another tool for this could help.
+
+## Video 7 (agent with memory)
+> In this video we learned how to persist memory so that we can continue prompting in pieces.
+I made a very simple modification and multiplied this final new result by 10.
