@@ -16,3 +16,7 @@ I just added a few more tools for subtraction, multiplication, division etc at t
 ## Video 5 (router)
 > In this video we routed to the tools node in case a tool was being called by the llm on user input.
 I added a node, in the middle of the file itself after tools that just prints the tool output. In more practical examples I think this can be used to further process the result after we get a result from the tool. 
+
+
+## Video 6 (agent)
+> In this video we learned how to make a recursive loop, this allows for sequential tool calling. A tools output can be fed back into the tool with this. For my modification I added a tool that sorts a list of numbers. My intended behaviour was to have the llm then recursively subtract this list, but I was unable to get this to work. Perhaps a more refined prompt or another tool for this could help.
