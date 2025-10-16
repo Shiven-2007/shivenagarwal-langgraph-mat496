@@ -8,3 +8,7 @@ initial setup
 ## Video 3 (langsmith studio)
 > In this video we just use the pre existing files from the course to verify that the langsmith studio works, 
 Not much to do here, but I went ahead and added the example I made earlier to this
+
+## Video 4 (chains)
+> In this video we learned how to make tools that use predefined functions to give an accurate output. This is helpful for doing math since llm's generate text based on probability and do not always give the mathematically correct output.
+I just added a few more tools for subtraction, multiplication, division etc at the end of this file. Interesting observation: it seems when I try to prompt it to divide 5 by 0, it doesn't call the tool, whereas it does call the tools when a non zero division takes place
