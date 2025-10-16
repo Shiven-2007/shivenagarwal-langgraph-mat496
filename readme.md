@@ -12,3 +12,7 @@ Not much to do here, but I went ahead and added the example I made earlier to th
 ## Video 4 (chains)
 > In this video we learned how to make tools that use predefined functions to give an accurate output. This is helpful for doing math since llm's generate text based on probability and do not always give the mathematically correct output.
 I just added a few more tools for subtraction, multiplication, division etc at the end of this file. Interesting observation: it seems when I try to prompt it to divide 5 by 0, it doesn't call the tool, whereas it does call the tools when a non zero division takes place
+
+## Video 5 (router)
+> In this video we routed to the tools node in case a tool was being called by the llm on user input.
+I added a node, in the middle of the file itself after tools that just prints the tool output. In more practical examples I think this can be used to further process the result after we get a result from the tool. 
