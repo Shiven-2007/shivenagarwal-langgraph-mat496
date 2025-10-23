@@ -35,3 +35,7 @@ initial setup
 # Lesson 1: State Schema
 
 > In this lesson we learned about the various different methods in which we can define the state schema. For my modification at the end of the file I make another graph using pydantic state.
+
+# Lesson 2: State reducers
+
+> In this lesson we learned about an issue where while branching 2 steps simultaneously attempt to update one value. This is resolved by using reducers. Instead of modifying the value itself, we append values in a list. We also learn about a custom reducer that can help handle the values when they are potentially unsupported by the operator. This is then used to illustrate how messages can be modified and deleted using the add_messages reducer. For my modification I made a reducer for merging dictionaries. This example is in the last cell of this python notebook.
