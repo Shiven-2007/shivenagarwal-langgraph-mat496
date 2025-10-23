@@ -51,3 +51,7 @@ initial setup
 ## Lesson 5: Chatbot with Summarising messages and Memory
 
 > In this lesson we made a chatbot with a function that summarises the chat if there are more than 6 messages. We also used the memory persistence so that state of the graph is saved and we can have multi turn conversations with the chatbot.
+
+## Lesson 6: Chatbot with External memory
+
+> This lesson is similar to the last one, except here the memory is saved to a local sqlite3 database. This means that even if we restart the environment, our in memory state is lost but we still have the state in the database and can refer back to it. This is especially useful for saving conversations.
