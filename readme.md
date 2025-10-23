@@ -43,3 +43,7 @@ initial setup
 ## Lesson 3: Multiple Schemas
 
 > In this lesson we learned about defining different schemas for the input and output states. This is useful if for example we want to internally communicate some data between nodes but not show it in the final result to the user. For my modification I created a different output and input state in a simple graph.
+
+## Lesson 4: Trimming and filtering messages
+
+> In this lesson we learned about trimming and filtering messages, in order to reduce latency and more efficiently use our tokens, since this is a limited and expensive resource. There are various strategies like using the reducer used in lesson 2, or filtering the list of messages we use, or using the trim messages utility that allows us to limit the number of tokens of messages passed to the server. Since this is a very simple example I haven't made any modifications of my own.
