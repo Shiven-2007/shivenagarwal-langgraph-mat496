@@ -47,3 +47,7 @@ initial setup
 ## Lesson 4: Trimming and filtering messages
 
 > In this lesson we learned about trimming and filtering messages, in order to reduce latency and more efficiently use our tokens, since this is a limited and expensive resource. There are various strategies like using the reducer used in lesson 2, or filtering the list of messages we use, or using the trim messages utility that allows us to limit the number of tokens of messages passed to the server. Since this is a very simple example I haven't made any modifications of my own.
+
+## Lesson 5: Chatbot with Summarising messages and Memory
+
+> In this lesson we made a chatbot with a function that summarises the chat if there are more than 6 messages. We also used the memory persistence so that state of the graph is saved and we can have multi turn conversations with the chatbot.
