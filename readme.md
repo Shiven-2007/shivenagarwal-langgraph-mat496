@@ -55,3 +55,8 @@ initial setup
 ## Lesson 6: Chatbot with External memory
 
 > This lesson is similar to the last one, except here the memory is saved to a local sqlite3 database. This means that even if we restart the environment, our in memory state is lost but we still have the state in the database and can refer back to it. This is especially useful for saving conversations.
+
+# Module 2
+
+## Lesson 1: Streaming
+> I learned about the different streaming modes: values mode, which streams the full graph state after each node runs; updates mode, which streams only the parts of the state that changed; messages mode, used for message-based workflows; and astream_events, which provides real-time token streaming. For my modification, I added a turn_count field to the state.
