@@ -66,3 +66,6 @@ initial setup
 
 ## Lesson 3: Editing state and human feedback
 > I learned about how to modify graph state during breakpoints using update_state function. For my modification I added more math functions. 
+
+## Lesson 4: Dynamic breakpoints
+> I learned how we can dynamically interrupt graphs if the input doesn't meet certain conditions. I modified the code to also interrupt when the input was just an empty string.
