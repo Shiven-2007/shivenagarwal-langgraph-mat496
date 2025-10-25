@@ -69,3 +69,6 @@ initial setup
 
 ## Lesson 4: Dynamic breakpoints
 > I learned how we can dynamically interrupt graphs if the input doesn't meet certain conditions. I modified the code to also interrupt when the input was just an empty string.
+
+## Lesson 5: Time travel
+> I learned how we can debug state history with get_state_history, and use forking to execute something else without losing the original branch. I modified the code by adding more mathematical operations.
