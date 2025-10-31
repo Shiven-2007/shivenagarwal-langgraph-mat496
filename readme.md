@@ -80,3 +80,6 @@ initial setup
 
 ## Lesson 2: Sub Graph
 > I learned that sub graph enables modular state management for multi agent workflows in LangGraph. I modified the code to show number of failures found.
+
+## Lesson 3: Map Reducer
+> I learned that map reduce enables efficient parallelization and aggregation of tasks in LangGraph workflows. I modified the code to show number of jokes generated.
