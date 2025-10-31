@@ -72,3 +72,8 @@ initial setup
 
 ## Lesson 5: Time travel
 > I learned how we can debug state history with get_state_history, and use forking to execute something else without losing the original branch. I modified the code by adding more mathematical operations.
+
+# Module 4
+
+## Lesson 1: Parallelization
+> I learned how we can run 2 nodes at the same time and use reducers. I modified the code to have a third parallel search.
