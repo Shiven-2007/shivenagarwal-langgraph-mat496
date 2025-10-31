@@ -77,3 +77,6 @@ initial setup
 
 ## Lesson 1: Parallelization
 > I learned how we can run 2 nodes at the same time and use reducers. I modified the code to have a third parallel search.
+
+## Lesson 2: Sub Graph
+> I learned that sub graph enables modular state management for multi agent workflows in LangGraph. I modified the code to show number of failures found.
