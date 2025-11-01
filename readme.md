@@ -83,3 +83,6 @@ initial setup
 
 ## Lesson 3: Map Reducer
 > I learned that map reduce enables efficient parallelization and aggregation of tasks in LangGraph workflows. I modified the code to show number of jokes generated.
+
+## Lesson 4: Research Assistant
+> I learned that multi agent research assistants in LangGraph can coordinate analyst, interview and report generation using graph workflows. I modified the code to show number of analysts in report.
